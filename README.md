@@ -37,9 +37,10 @@ composer create-project mihatori/ci-svelte-appstarter
 ```
 
 ## Setup
-
+- All the commands must run in root folder like `C:\xampp\htdocs\ci-svelte-appstarter`
 - Copy `env` to `.env`.
-- Run: `npm intall` to install node dependencies.
+- Run: `composer update` to install node dependencies.
+- Run: `npm install` to install node dependencies.
 - Run: `npm run dev` to serve your assets.
 - Now start you CI server: `php spark serve` or access it through you virtual host.
 
